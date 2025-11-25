@@ -1,4 +1,4 @@
-// utils/crypto.js
+//crypto.js
 function cifrarVigenere(texto, clave) {
     let resultado = '';
     const claveRepetida = clave.repeat(Math.ceil(texto.length / clave.length)).slice(0, texto.length);
